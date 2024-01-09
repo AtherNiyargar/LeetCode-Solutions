@@ -13,14 +13,14 @@ public class Solution {
         return result;
     }
 
-    public static void main(String[] args) {
-        int[] arr = new int[5];
-        for (int i = 1; i <= 5; i++) {
-            arr[i - 1] = i;
-        }
-        int[] result = twoSum(arr, 9);
-        for (int item : result) {
-            System.out.println(item);
-        }
-    }
+    // public static void main(String[] args) {
+    //     int[] arr = new int[5];
+    //     for (int i = 1; i <= 5; i++) {
+    //         arr[i - 1] = i;
+    //     }
+    //     int[] result = twoSum(arr, 9);
+    //     for (int item : result) {
+    //         System.out.println(item);
+    //     }
+    // }
 }
