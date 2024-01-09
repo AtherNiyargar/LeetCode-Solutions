@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+// #include <stdio.h>
+// #include <stdlib.h>
 
 int *twoSum(int *nums, int numsSize, int target, int *returnSize)
 {
@@ -20,13 +20,13 @@ int *twoSum(int *nums, int numsSize, int target, int *returnSize)
     }
 }
 
-int main()
-{
-    int num[] = {3, 3}, target = 6, returnSize;
-    int *ptr = &returnSize;
-    int *arr = twoSum(num, sizeof(num) / sizeof(num[0]), target, ptr);
-    printf("[%d, %d]\n", arr[0], arr[1]);
-    free(arr);
-    return 0;
-}
+// int main()
+// {
+//     int num[] = {3, 3}, target = 6, returnSize;
+//     int *ptr = &returnSize;
+//     int *arr = twoSum(num, sizeof(num) / sizeof(num[0]), target, ptr);
+//     printf("[%d, %d]\n", arr[0], arr[1]);
+//     free(arr);
+//     return 0;
+// }
 
